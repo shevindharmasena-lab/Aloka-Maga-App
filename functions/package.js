@@ -1,0 +1,11 @@
+{
+  "name":"aloka-maga-functions",
+  "version":"1.0.0",
+  "engines":{"node":"18"},
+  "dependencies":{
+    "firebase-admin":"^11.0.0",
+    "firebase-functions":"^4.2.0",
+    "@google-cloud/text-to-speech":"^3.2.0",
+    "@google-cloud/storage":"^6.9.0"
+  }
+}
