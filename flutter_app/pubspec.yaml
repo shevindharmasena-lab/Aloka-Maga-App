@@ -1,0 +1,45 @@
+name: aloka_maga_app
+description: Sinhala Bible Flutter App
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.11.0
+
+  # Animations
+  lottie: ^2.2.0
+
+  # UI Helpers
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # Background GIFs
+    - assets/bg/bg1.gif
+    - assets/bg/bg2.gif
+    - assets/bg/bg3.gif
+    - assets/bg/bg4.gif
+
+    # Lottie animations
+    - assets/lotties/doves_pack.json
+    - assets/lotties/heavenly_background.json
+    - assets/lotties/neon_ui_pack.json
+
+    # Normal images (if used)
+    - assets/images/
+    - assets/animations/gifs/
